@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/ff786782cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--connect style.css-->
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
+    <title>Restoran - Contact</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <nav id="navbar">
+        <h1>Restoran</h1>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./menu.html">Menu and Gallery</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <div id="phone">
+            <a href="Tel:011256743">0112567430</a>
+          </div>
+        </ul>
+      </nav>
+
+      <div id="Mobile_Menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./menu.html">Menu and Gallery</a></li>
+          <li><a href="./about.html">About US</a></li>
+          <li><a href="./contact.html">Contact US</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="contact">
+      <h1 id="section">Contact</h1>
+
+      <div id="contact_row">
+        <div class="contact_col">
+          <div class="contact-info">
+            <p>
+              <i class="fa fa-map-marker"></i>
+              Mount Lavinia ,Dehiwala, Sri Lanka.
+            </p>
+
+            <p>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:restoran@gmail.com"> info@restoran.com </a>
+            </p>
+
+            <p>
+              <i class="fa fa-phone-square"></i>
+              <a href="tel:011256743"> +94 11 256 7430</a>
+            </p>
+          </div>
+
+          <h3>Follow us</h3>
+
+          <div class="social-links">
+            <a href=""><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a href=""><i class="fa fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fa fa-youtube-square fa-2x"></i></a>
+          </div>
+        </div>
+
+        <div class="contact_col contact-form">
+          <h2>Leave us a message</h2>
+
+          <form>
+            <div class="form-group">
+              <div class="form-control">
+                <label for="name">Full name</label>
+                <input required id="name" name="name" type="text" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-control">
+                <label for="dob">Birthdate</label>
+                <input required id="dob" type="date" name="dob" />
+              </div>
+
+              <div class="form-control">
+                <label for="age">Age</label>
+                <input required id="age" name="age" type="text" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="group-label">Gender</label>
+
+              <div class="form-control radio-control">
+                <input
+                  required
+                  type="radio"
+                  name="gender"
+                  value="male"
+                  id="male"
+                  checked
+                />
+                <label for="male">Male</label>
+              </div>
+
+              <div class="form-control radio-control">
+                <input
+                  required
+                  type="radio"
+                  name="gender"
+                  value="female"
+                  id="female"
+                />
+                <label for="female">Female</label>
+              </div>
+
+              <div class="form-control radio-control">
+                <input
+                  required
+                  type="radio"
+                  name="gender"
+                  value="other"
+                  id="other"
+                />
+                <label for="other">Other</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-control">
+                <label for="email">Email address</label>
+                <input required name="email" type="email" id="email" />
+              </div>
+
+              <div class="form-control">
+                <label for="phone-no">Contact number</label>
+                <input required name="contact" type="text" id="phone-no" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-control">
+                <label for="message">Your message</label>
+                <textarea
+                  required
+                  id="message"
+                  rows="5"
+                  name="message"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form-control">
+              <input type="submit" value="Send message" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+      <div>
+        <p>Copyright &copy; 2023. All rights reserved.</p>
+      </div>
+
+      <div id="back-to-top">
+        <i class="fa fa-chevron-circle-up"></i>
+      </div>
+    </footer>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
